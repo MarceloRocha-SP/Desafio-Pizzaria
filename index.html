@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patroni Pizzeria</title>
+</head>
+<body>
+    <h2>Pizzaria Patroni</h2>
+    
+    <section>
+        <form id="form">
+            <fieldset>
+                <input id="valorConta" placeholder="Valor total da conta:" required>
+            </fieldset>
+            <fieldset>
+                <input id="valorTaxa" placeholder="Valor da taxa:" required>
+            </fieldset>
+            <fieldset>
+                <input id="quantidadePessoas" placeholder="Quantidade de pagantes:" required>
+            </fieldset>
+            <fieldset>
+                <button onclick="formEvent()" id="buttonSend">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+    <section>
+        <div id="resultado">
+
+        </div>
+    </section>
+    <script src="/main.js"></script>
+</body>
+</html>
